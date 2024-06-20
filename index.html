@@ -1,128 +1,470 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadon Freed - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Jadon Freed</h1>
-            <p class="sub-title">Junior at the University of Pittsburgh</p>
-            <p class="contact-info">
-                <span>Email: <a href="mailto:jadonfr17@gmail.com">jadonfr17@gmail.com</a></span>
-                <span>Phone: (757) 995-5638</span>
-                <span>Location: Philadelphia, PA</span>
-            </p>
-        </div>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work-experience">Work Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#interests">Interests</a></li>
-        </ul>
-    </nav>
+<!-- This code was generated using AnimaApp.com. 
+This code is a high-fidelity prototype.
+Get developer-friendly React or HTML/CSS code for this project at: https://projects.animaapp.com?utm_source=hosted-code 
+20/06/2024 15:50:31 -->
 
-    <main>
-        <section id="education">
-            <div class="container">
-                <h2>Education</h2>
-                <p><strong>University of Pittsburgh</strong>, August 2021 – April 2025</p>
-                <p>Relevant Coursework: Data Visualization in R, Applied Regression in R, Data Modeling for Scientists (Python), Algorithms and Data Structures 1 & 2</p>
-                <p>Leadership in campus club RUF at Pitt (April 2022 -- Present)</p>
-            </div>
-        </section>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1440, maximum-scale=1.0"><link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"><meta name="og:type" content="website"><meta name="twitter:card" content="photo"><script id="anima-load-script" src="load.js"></script><script id="anima-hotspots-script" src="hotspots.js"></script><script id="anima-overrides-script" src="overrides.js"></script><script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script><style>
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-        <section id="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Proficient in R tidyverse, ggplot2, pandas, and NumPy</li>
-                    <li>GAN model machine learning experience</li>
-                    <li>Experience wrangling, training datasets, and model selection in R and Python</li>
-                    <li>Strong analytical problem-solving skills; detail oriented, organized</li>
-                    <li>Experienced leader with interpersonal communication skills</li>
-                </ul>
-            </div>
-        </section>
+@import url("https://fonts.googleapis.com/css?family=Inter:500,700");
 
-        <section id="work-experience">
-            <div class="container">
-                <h2>Work Experience</h2>
-                <div class="experience">
-                    <h3>TEAMeffort Missions</h3>
-                    <p>Mission Director, May 2023 – August 2023, Ponce, Puerto Rico & Copperhill, TN</p>
-                    <ul>
-                        <li>Led a staff of 7 with a co-director to manage work site locations, volunteer groups, and local contacts</li>
-                        <li>Managed $100,000+ budget and provided aid to 50+ homes</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3>Rose Gardens Continuing Care at Ann's Choice</h3>
-                    <p>Disability Care in Dining Services, December 2019 – Present, Warminster, PA</p>
-                    <ul>
-                        <li>Lead employees to care for over 70 dementia and disability-impaired elderly</li>
-                        <li>Maintained and balanced an efficient work schedule</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3>TEAMeffort Missions</h3>
-                    <p>Mission Staff, May 2022 – August 2022, Copperhill, TN</p>
-                    <ul>
-                        <li>Mentored by director to attain critical knowledge and skills</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/66742ffce0ce53b606d17055.66742ffde0ce53b606d17058.be9jDUa.hch.png");
 
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <ul>
-                    <li>Developing data analytics skills in Python for machine learning and algorithmic trading bot</li>
-                    <li>Research project using a GAN model in analyzing and backtracking in TSLA stock price</li>
-                    <li>Developed scheduling program in JavaScript</li>
-                </ul>
-            </div>
-        </section>
 
-        <section id="certifications">
-            <div class="container">
-                <h2>Certifications</h2>
-                <ul>
-                    <li>Microsoft Excel Certification</li>
-                    <li>Microsoft Word Certification</li>
-                </ul>
-            </div>
-        </section>
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
 
-        <section id="interests">
-            <div class="container">
-                <h2>Interests</h2>
-                <ul>
-                    <li>Volleyball</li>
-                    <li>Disc Golf</li>
-                    <li>Youth Ministry</li>
-                    <li>Travel</li>
-                    <li>Fitness</li>
-                    <li>Music</li>
-                </ul>
-            </div>
-        </section>
-    </main>
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Jadon Freed</p>
-        </div>
-    </footer>
-</body>
-</html>
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-xl: 64px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.title {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.28px;
+}
+
+.body-text {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+:root {
+}
+
+
+/* screen - about */
+
+.about {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  height: 1285px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.about .headline-vRTBB9 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 80px;
+  position: absolute;
+  top: 244px;
+  width: 624px;
+}
+
+.about .title-SyAGNC {
+  align-self: stretch;
+  background-color: transparent;
+  color: var(--black);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+}
+
+.about .welcome-to-my-personal-website-SyAGNC {
+  align-self: stretch;
+  background-color: transparent;
+  color: var(--black);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  position: relative;
+  text-align: left;
+}
+
+.about .paragraph-SyAGNC {
+  align-self: stretch;
+  background-color: transparent;
+  color: var(--black);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  position: relative;
+  text-align: left;
+}
+
+.about .navigation-vRTBB9 {
+  background-color: var(--white);
+  height: 164px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.about .items-xWBZxz {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 48px;
+  justify-content: flex-end;
+  left: 602px;
+  position: absolute;
+  top: 56px;
+}
+
+.about .projects-tGvWPl {
+  background-color: transparent;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.about .skills-UPdr8I {
+  background-color: transparent;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.about .hobbies-gu4vcm {
+  background-color: transparent;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.about .resume-download-G9YTxk {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.about .jadon-freed-personal-website-xWBZxz {
+  top: 66px;
+}
+
+.about .navigation-footer-vRTBB9 {
+  background-color: var(--white);
+  height: 264px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 1021px;
+  width: 1440px;
+}
+
+.about .jadon-freed-personal-website-TO8CKt {
+  top: 54px;
+}
+
+.about .social-icons-TO8CKt {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 8px;
+  left: 80px;
+  position: absolute;
+  top: 176px;
+}
+
+.about .buttons-icon-qxrgQL {
+  border-radius: 4px;
+}
+
+.about .icon-zgxUVH {
+  background-color: transparent;
+  height: 24px;
+  left: 8px;
+  position: relative;
+  top: 8px;
+  width: 24px;
+}
+
+.about .icon-kYbMqS {
+  background-color: transparent;
+  height: 20px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}
+
+.about .divider-TO8CKt {
+  background-color: transparent;
+  height: 1px;
+  left: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 1280px;
+}
+
+.about .img_3113-1-1-1-vRTBB9 {
+  background-color: transparent;
+  height: 563px;
+  left: 898px;
+  object-fit: cover;
+  position: absolute;
+  top: 244px;
+  width: 508px;
+}
+
+.about .button {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px #0000000d;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 14px 24px;
+  position: relative;
+}
+
+.about .buttons-icon {
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.about .jadon-freed-personal-website {
+  background-color: transparent;
+  color: var(--black);
+  font-style: normal;
+  font-weight: 500;
+  height: 30px;
+  left: 80px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+</style></head><body style="margin: 0;background: #ffffff;"><input type="hidden" id="anPageName" name="page" value="about"><div class="container-center-horizontal"><div class="about screen " data-id="1:118"><div class="headline-vRTBB9" data-id="1:120"><h1 class="title-SyAGNC title" data-id="1:121">About</h1><p class="welcome-to-my-personal-website-SyAGNC valign-text-middle body-text" data-id="1:122">Welcome to my personal website</p><p class="paragraph-SyAGNC body-text" data-id="1:123">Hi, I&#39;m Jadon Freed, a senior at the University of Pittsburgh studying Statistics with minors in Computer Science and Economics. I&#39;m passionate about data analysis, machine learning, and leveraging technology to solve real-world problems. Outside of academics, I enjoy volleyball, disc golf, and exploring new places. I hope this can help you learn more about my projects, skills, and experiences.</p></div><div class="navigation-vRTBB9" data-id="1:124"><div class="items-xWBZxz" data-id="1:125"><div class="button" data-id="3:10"><div class="projects-tGvWPl valign-text-middle body-text" data-id="1:126">Projects</div></div><div class="button" data-id="3:8"><div class="skills-UPdr8I valign-text-middle body-text" data-id="1:127">Skills</div></div><div class="button" data-id="3:12"><div class="hobbies-gu4vcm valign-text-middle body-text" data-id="1:128">Hobbies</div></div><div class="button" data-id="1:129"><div class="resume-download-G9YTxk valign-text-middle" data-id="1:130">Resume Download</div></div></div><p class="jadon-freed-personal-website-xWBZxz valign-text-middle jadon-freed-personal-website body-text" data-id="1:131">Jadon Freed | Personal Website</p></div><div class="navigation-footer-vRTBB9" data-id="1:132"><p class="jadon-freed-personal-website-TO8CKt valign-text-middle jadon-freed-personal-website body-text" data-id="1:148">Jadon Freed | Personal Website</p><div class="social-icons-TO8CKt" data-id="1:149"><img class="buttons-icon" data-id="1:155" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/6674303d94bb46feef6d0265/releases/66744eaf1d2ef050d5590d3e/img/buttons---icon.png" alt="Buttons / Icon"><div class="buttons-icon-qxrgQL buttons-icon" data-id="1:165"><div class="icon-zgxUVH" data-id="1:166"><img class="icon-kYbMqS" data-id="1:167" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/6674303d94bb46feef6d0265/releases/66744eaf1d2ef050d5590d3e/img/icon.svg" alt="Icon"></div></div></div><img class="divider-TO8CKt" data-id="1:170" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/6674303d94bb46feef6d0265/releases/66744eaf1d2ef050d5590d3e/img/divider.svg" alt="Divider"></div><img class="img_3113-1-1-1-vRTBB9" data-id="2:6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/6674303d94bb46feef6d0265/releases/66744eaf1d2ef050d5590d3e/img/img-3113--1---1--1.png" alt="IMG_3113 (1) (1) 1"></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script></body></html>
