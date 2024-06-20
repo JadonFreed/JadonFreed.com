@@ -27,11 +27,6 @@ header p {
     font-size: 1.2rem;
 }
 
-header a {
-    color: #fff;
-    text-decoration: underline;
-}
-
 /* Container Styles */
 .container {
     width: 80%;
